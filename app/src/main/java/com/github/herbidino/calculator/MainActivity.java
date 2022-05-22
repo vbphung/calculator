@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.LinearLayout;
@@ -43,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
 //            for (String button : buttonRow) {
 //                Button btn = createButton(button);
 //            }
+    }
+
+    public void CButton(View view){
+
     }
 
 //    private Button createButton(String text) {

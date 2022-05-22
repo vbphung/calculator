@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalculateButton">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+    </style>
+</resources>
