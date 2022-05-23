@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="Button_C">C</string>
-    <string name="Button_Sign">+/-</string>
+    <string name="ButtonWarning">Some buttons may not work!</string>
 </resources>

@@ -4,170 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/warningTextSize"
+        android:text="@string/ButtonWarning"
+        android:id="@+id/Text_Warning"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/resultTextSize"
         android:text="Hello World!"
-        android:id="@+id/Text_Result"/>
+        android:layout_below="@+id/Text_Warning"
+        android:id="@+id/Text_Result"
+        />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnCount="4"
         android:layout_below="@+id/Text_Result"
-        android:id="@+id/GridLayout_ButtonList">
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="@string/Button_C"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="@string/Button_Sign"
-            android:onClick="CButton"/>
-
-        <Button
-            android:text="%"
-            android:onClick="CButton"
-            style="@style/CalculateButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="/"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="1"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="2"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="3"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="X"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="4"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="5"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="6"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="+"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="7"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="8"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="9"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="-"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="0"
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text=","
-            android:onClick="CButton"/>
-
-        <Button
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="@dimen/buttonTextSize"
-            android:text="="
-            android:onClick="CButton"/>
+        android:id="@+id/GridLayout_ButtonList"
+        >
 
     </GridLayout>
 
